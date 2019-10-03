@@ -30,3 +30,6 @@ a:hover {
     background-color: plum;
 }
 
+#head {
+    border-radius: 50%;
+}
