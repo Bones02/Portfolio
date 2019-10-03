@@ -1,0 +1,31 @@
+.logo {
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headshot {
+    float: right;
+}
+
+a:hover {
+    color: rgb(99, 92, 92);
+  }
+
+#banner {
+    background-color: plum;
+}
+
+.contact {
+    background-color: plum;
+}
