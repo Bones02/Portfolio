@@ -1,3 +1,18 @@
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 90%;
+    }
+    .headshot {
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    p {
+        font-size: 24px;
+    }
+}
 .logo {
     border-radius: 50%;
 }
@@ -16,6 +31,7 @@ h3 {
 
 .headshot {
     float: right;
+    padding: 30px;
 }
 
 a:hover {
@@ -23,13 +39,14 @@ a:hover {
   }
 
 #banner {
-    background-color: plum;
+    background-color: #744974;
 }
 
 .contact {
-    background-color: plum;
+    background-color: #744974;
 }
 
 #head {
     border-radius: 50%;
 }
+

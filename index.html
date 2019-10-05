@@ -4,6 +4,7 @@
 		<title>Alyssa Bonesteel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="favicon.cc" type="image/x-icon">
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
@@ -16,13 +17,15 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="#about">About<span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#projects">Projects</a>
+					<a class="nav-item nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#projectSection">Projects</a>
 					<a class="nav-item nav-link" href="#contact">Contact</a>
 		  		</div>
 			</div>
 		</nav>
 		<!-- Intro -->
+		<div id="about">
+		</div>
 		<section id="banner" class="jumbotron jumbotron-fluid p-5 mb-5 text-white">
 			<div class="container">
 				<h1 class="display-4">Alyssa Bonesteel</h1>
@@ -30,12 +33,14 @@
 				<img src="images/headshot.jpg" width="250" height="250" alt="head shot" class="headshot">
 			  </div>
 			<div class="container p-5" id="about">
-				<h3>I am a current student of the Web Development bootcamp at Bloc. I pride myself on writing clean and efficient code. I am hardworking, eager to learn new languages, and a team player. When I am not coding you can find me enjoying the great outdoors, playing volleyball, or trying out new recipes in the kitchen.</h3>
+				<p>I am a current student of the Web Development bootcamp at Bloc. I pride myself on writing clean and efficient code. I am hardworking, eager to learn new languages, and a team player. When I am not coding you can find me enjoying the great outdoors, playing volleyball, or trying out new recipes in the kitchen.</p>
+			</div>
+			<div id="projectSection">
 			</div>	
 		</section>
 
 		<!-- Projects -->
-		<section id="projectSection" class="jumbotron jumbotron-fluid p-5 mb-5 bg-secondary text-white">
+		<section class="jumbotron jumbotron-fluid p-5 mb-5 bg-secondary text-white">
 			<div class="container">
 				<h2>My Projects</h2>
 			</div>
@@ -65,16 +70,18 @@
 						<p class="card-text">This card will contain the image and description of my capstone project 2.</p>
 						<p class="card-text"><small class="text-muted">For future use</small></p>
 					</div>
+					<div id="contact"></div>
 				</div>
 			</div>
 		</div>	
+
 	<!-- Contact-->
 		<section class="contact">
 			<div class="card text-center">
 				<div class="card-header m-2">
 			  		<h2>Connect with me!</h2>
 					<img src="images/contact.jpg" width="200" height="200" alt="head shot" id="head" class="images m-2">
-					<p>Email me at anbonesteel@gmail.com</p>
+					<a class="btn btn-secondary m-3" href="mailto:anbonesteel@gmail.com">Email Me!</a>
 					  	<div class="card-body m-2">
 							<a class="btn btn-secondary m-3" target="_blank" href="https://www.linkedin.com/in/alyssabonesteel/">LinkedIn</a>
 							<a class="btn btn-secondary m-3" target="_blank" href="https://github.com/Bones02">Github</a>
